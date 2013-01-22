@@ -1,0 +1,6 @@
+require 'rubygems'
+require 'geocoder'
+
+r = Geocoder.search(ARGV[0])
+
+puts "latitude: #{r[0].latitude} longitude: #{r[0].longitude}"
