@@ -1,0 +1,15 @@
+This command line tool will convert strings into latitude and longitud posistions.
+
+You search on google maps, then you come back to this tool and run the same search string like this:
+
+  $ ruby geocoder "colima, Colima"
+  latitude: 19.2433112 longitude: -103.7247534
+
+Please remember to quote your string with ""
+
+# set up
+
+install required gems:
+
+gem install geocoder
+
